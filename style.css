@@ -1,19 +1,20 @@
 body{
     background-color: #ececec;
-    background-size: cover;
+    
     font-family: 'Roboto',
     sans-serif;
    
 }
 
 .hero{
-    background: url("header.jpg") no-repeat center center fixed;
+    background: url("assets/hero_img.png") no-repeat center center fixed;
+    background-size: cover;
     height: 70vh;
-   display: flex;
-   position: relative;
-   flex-direction: column;
+    display: flex;
+    position: relative;
+    flex-direction: column;
     color:white;
-    
+    width:100%;
 }
 .overlay{
     width: 100%;
@@ -41,9 +42,6 @@ body{
 .display-4{
     font-size: 3em;
 }
-.contentPart1{
-    margin-left:3rem;
-}
 
 .con2{
      height: 100vh;
@@ -60,17 +58,15 @@ body{
     height:40vh;
     background-color: white;
 }
-.featureCard{
-    
-}
+
 .banner{
     height: 50vh;
-    background: url("laptop-banner.png") no-repeat center center fixed;
+    background: url("assets/laptop-banner.png") no-repeat center center fixed;
     background-size: cover;
-     color:white;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
      
 }
 
