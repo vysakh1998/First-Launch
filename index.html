@@ -9,7 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-   <!--navbar-->
+
+
+  <header class="hero">
+    <div class="overlay"></div>
+       <!--navbar-->
    <div class="container con">
    <nav class="navbar navbar-expand-lg navbar-primary">
   <a class="navbar-brand" href="#"><img src="/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
@@ -26,17 +30,15 @@
   </ul>
   </nav>
   </div>
-
-  <header class="hero">
       <div class="heroText text-center">
            <h1>Learn online through self-placed courses anywhere, anytime</h1>
-            <p>Learn through self-placed course anywhere, anytime</p>
+            <p class="text-muted">Learn through self-placed course anywhere, anytime</p>
             <a href="#" class="btn btn-lg btn-primary">SIGN UP FOR FREE</a>
       </div>
   </header>
 <!--content part1-->
-  <div class="container con2 justify-content-center">
-      <div class="row rowHeight justify-content-around">
+  <div class="container con2 justify-content-center contentContainer">
+      <div class="row rowHeight">
             <div class="col-lg-6">
               <div class="row sRow">
               <p><strong>WHY CHOOSE LEARNEST?</strong></p>  
@@ -45,10 +47,9 @@
               </div>
             </div>
           
-          <div class="col-lg-6 align-self-center">
-                <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic, ea repellat consectetur, 
-                  illum quis ducimus nostrum eveniet exercitationem fugit quae debitis aspernatur dolor aliquid obcaecati nulla, 
-                  voluptatem quibusdam qui!
+          <div class="col-lg-5 align-self-center contentPart1">
+                <p id="lorem" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec
+                  placerat nisl magna.. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquam at porttitor sem.
                 </p>
           </div>
 
@@ -56,16 +57,21 @@
   </div>
 <!--features card-->
 <div class="fCard text-center">
- 
-  <div class="container row" id="features">
+ <div class="container">
+  <div class="row" id="features">
   <!--card 1-->
     <div class="col-lg-4 card1">
       
-      <div class="card text-left" style="width: 20rem; height: 45vh;margin-top: -50%;">
+      <div class="card text-left" style="width: 20rem; height: 50vh;margin-top: -50%;padding:20px">
         <div class="conatiner">
-        <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px">
+        <!-- <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px"> -->
+        <svg style="width: 150px; height: 60px">
+            <circle cx="45" cy="30" r="20" fill='#2979ff' stroke-width="20" stroke='#2979ff'/>
+            <circle cx="45" cy="30" r="12" fill='#40c4ff' stroke-width="20" stroke='#40c4ff'/>
+            <circle cx="45" cy="30" r="2" fill='white' stroke-width="20" stroke='white'/>
+          </svg>
           <div class="card-body">
-            <h4 class="card-title font-weight-bold">Self-Paced Courses </h4>
+            <h4 class="card-title font-weight-bold ">Self-Paced Courses </h4>
             <p class="card-text text-muted">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat
             volutpat. Donec placerat nisl magna.</p>
           </div>
@@ -75,13 +81,18 @@
     </div>
   <!--card 2--> 
     <div class="col-lg-4 card2">
-       <div class="card text-left" style="width: 20rem;height: 45vh;margin-top: -50%;">
+       <div class="card text-left" style="width: 20rem;height: 50vh;margin-top: -50%; padding:20px;">
         <div class="conatiner">
-        <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px">
+        <!-- <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px"> -->
+        <svg style="width: 150px; height: 60px">
+            <circle cx="45" cy="30" r="20" fill='#2979ff' stroke-width="20" stroke='#2979ff'/>
+            <circle cx="45" cy="30" r="12" fill='#40c4ff' stroke-width="20" stroke='#40c4ff'/>
+            <circle cx="45" cy="30" r="2" fill='white' stroke-width="20" stroke='white'/>
+          </svg>
           <div class="card-body">
             <h4 class="card-title font-weight-bold">Access to Top Resources</h4>
-            <p class="card-text text-muted">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat
-            volutpat. Donec placerat nisl magna.</p>
+            <p class="card-text text-muted">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquamat porttitor sem.  Aliquam erat
+              volutpat. Donec placerat nisl magna.</p>
           </div>
       </div>
       </div>
@@ -89,9 +100,14 @@
     </div>
   <!--card 3-->
     <div class="col-lg-4 card3" >
-       <div class="card text-left"style="width: 20rem;height: 45vh;margin-top: -50%;">
+       <div class="card text-left"style="width: 20rem;height: 50vh;margin-top: -50%;padding:20px">
         <div class="conatiner">
-        <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px">
+        <!-- <img id="cardLogo" src="circle.png" class="round-circle" height="50px" width="50px"> -->
+          <svg style="width: 150px; height: 60px">
+            <circle cx="45" cy="30" r="20" fill='#2979ff' stroke-width="20" stroke='#2979ff'/>
+            <circle cx="45" cy="30" r="12" fill='#40c4ff' stroke-width="20" stroke='#40c4ff'/>
+            <circle cx="45" cy="30" r="2" fill='white' stroke-width="20" stroke='white'/>
+          </svg>
           <div class="card-body">
             <h4 class="card-title font-weight-bold">300+ Unique Courses</h4>
             <p class="card-text text-muted">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat
@@ -102,7 +118,7 @@
       
     </div>
   </div>
-  
+ </div>
 </div>
 
 <!-- banner-->
@@ -127,7 +143,8 @@
 </div>
 <!--services card-->
 <div class="services">
-  <div class="container row">
+  <div class="container">
+  <div class="row">
   <!--card 4-->  
     <div class="col card4">
       <div class="card" style="max-width: 550px;height: 35vh;border-radius: 3%;">
@@ -185,31 +202,28 @@
     </div>
     
   </div>
+</div>
 </div>  
 
 <!--footer-->
 <footer class="page-footer font-small-indigo">
-  <div class="conatiner text-center text-lg-left">
+  <!-- <div class="container text-center text-lg-left"> -->
     <div class="row rowFoot">
       <!--column 1-->
-      <div class="col-md-3 mx-auto">
-        <div class="row">
-          <div class="col"><img src="assets/logo.png"  width="30" height="30"></div>
-          <div class="col"><h5 class="font-weight-bold  mt-3 mb-4">Learnest</h5>
-            </div>
-        </div>    
-        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque earum illum inventore, possimus
+      <div class="col-md-3  mx-auto">
+          <!-- <div class="col"><img src="assets/logo.png"  width="30" height="30"></div> -->
+          <div class="col"><h5 class="font-weight-bold footer-title">Learnest</h5></div>    
+              <p class="text-muted text-justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque earum illum inventore, possimus
                iusto labore vero minus alias accusamus magni ex voluptatibus laudantium nemo.
-            </p>   
-        
+              </p>   
           
         </div>
 
       <!--column-2-->
      
-        <div class="col-md-3 mx-auto text-left">
+        <div class="col-md-2 offset-col-1 mx-auto text-left">
           <h6 class="text-muted  text-uppercase mt-3 mb-4">Course Categories</h6>
-           <hr class="clearfix w-50 " style="margin-top: -10px;">
+           <hr class="clearfix w-50 ">
            <br>
           <ul class="list-unstyled">
           <li>
@@ -231,9 +245,9 @@
 
       </div>
       <!--column 3-->
-         <div class="col-md-3 mx-auto text-left">
+         <div class="col-md-2 offset-col-1 mx-auto text-left">
           <h6 class="text-muted  text-uppercase mt-3 mb-4">for institutes</h6>
-           <hr class="clearfix w-50" style="margin-top: -10px;">
+           <hr class="clearfix w-50">
            <br>
           <ul class="list-unstyled">
           <li>
@@ -251,9 +265,9 @@
         </ul>
         </div>
       <!--column 4-->  
-      <div class="col-md-3 mx-auto text-left">
+      <div class="col-md-2 offset-col-1 mx-auto text-left">
           <h6 class="text-muted  text-uppercase mt-3 mb-4">follow us everywhere</h6>
-            <hr class="clearfix w-50" style="margin-top: -10px;">
+            <hr class="clearfix w-50" >
             <br>
               <div class="social-icon-round">
                 <a href="#" class="fa fa-facebook"></a>
@@ -265,24 +279,25 @@
       </div>     
     </div>
     
-    </div>
+    <!-- </div> -->
   </div>
 
 </footer>
 <!--copyright footer-->
 <div class="copyright">
-  <div class="container">
-    <div class="row rowCopy">
-      <div class="col-md-2"><p>Privacy policy</p></div>
-      <div class="col-md-2"><p>Terms of use</p></div>
-      <div class="col-md-2"><p>Return and refund</p></div>
-    </div>
-    <div class="row rowCopy">
-      <div class="col-md-4"><p class="text-muted">Copyright © 2019 Learnest. All Rights Reserved.
-</p></div>
-      <div class="col-md-6 mr-auto text-right"><p class="text-muted">Learnest ™ is a registered trademark of ABC PVT LTD</p></div></div>
-          
-    </div>
+  <div>
+    <ul class="list-unstyled d-flex font-weight-bold">
+      <li class="pr-4">Privacy policy</li>
+      <li class="pr-4">Terms of use</li>
+      <li >Return and refunds</li>
+    </ul>
+    <p class="text-muted" style="font-size: small;">
+      Copyright © 2019 Learnest. All Rights Reserved.
+
+    </p>
+  </div>
+  <div class="text-muted text-sm" style="font-size: small;">
+    Learnest ™ is a registered trademark of ABC PVT LTD
   </div>
 </div>
     
