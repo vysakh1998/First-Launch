@@ -9,7 +9,7 @@ body{
 .hero{
     background: url("assets/hero_img.png") no-repeat center center fixed;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -30,25 +30,29 @@ body{
 }
 .heroText p {
     margin: 2rem 0;
-    
+
 }
 .heroText h1 {
     max-width: 27ch;
+    font-size: 3rem;
 }
 .heroText .btn{
     padding: 1rem 8rem;
 }
-
+#loginBtn{
+    padding:0.5rem 2rem;
+}
 .display-4{
     font-size: 3em;
 }
 
 .con2{
      height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
 }
 .rowHeight{
     margin-top: -20%;
@@ -56,11 +60,13 @@ body{
 }
 .fCard{
     height:40vh;
+    width: 100%;
     background-color: white;
 }
 
 .banner{
     height: 50vh;
+    width: 100%;
     background: url("assets/laptop-banner.png") no-repeat center center fixed;
     background-size: cover;
     color:white;
@@ -70,8 +76,10 @@ body{
      
 }
 
-#lorem{
+.lorem{
     padding-top: 40px;
+    max-width: 45ch;
+    color: #dedeec;
 }
 
 
@@ -88,6 +96,7 @@ body{
     height: 70vh;
     display: flex;
     align-items:center ;
+    width: 100%;
 }
 
 footer{
@@ -115,20 +124,28 @@ hr{
    
 }
 .fa-facebook {
-    background: #3B5998;
+    background: #2979ff;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.014);
 }
 .fa-twitter {
-    background: #55ACEE;
+    background: #2979ff;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
 .fa-linkedin {
-    background: #007bb5;
+    background: #2979ff;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
 .fa-instagram {
-  background: #125688;
+  background: #2979ff;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
 
 .copyright{
@@ -145,17 +162,18 @@ hr{
     display: flex;
     align-items: center;
     margin-top:15px;
-    color: blue;
+    color: #2979ff;
+    font-size: xx-large;
 }
+
 .footer-title::before {
     content: '';
     display: inline-flex;
     align-items: center;
-    width: 30px;
-    height: 30px;
-    background: url("assets/logo.png") no-repeat center center fixed;
-    background-size: cover;
-    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #2979ff;
+    border-radius: 50%;
     margin-right: 20px;
     margin-left: -12px;
 }
