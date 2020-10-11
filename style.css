@@ -108,11 +108,17 @@ footer{
 }
 .rowFoot{
 margin-left: 0 auto;
+margin-right: auto;
 }
+
 hr{
     position: absolute;
     margin-top: -10px;
     left:5;
+}
+footer li {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
 .fa {
     padding: 10px;
@@ -165,6 +171,7 @@ hr{
     color: #2979ff;
     font-size: xx-large;
 }
+
 
 .footer-title::before {
     content: '';
