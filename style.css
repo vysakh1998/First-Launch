@@ -7,7 +7,7 @@ body{
 }
 
 .hero{
-    background: url("assets/hero_img.png") no-repeat center center fixed;
+    background: url("assets/hero_img.webp") no-repeat center center fixed;
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -67,7 +67,7 @@ body{
 .banner{
     height: 50vh;
     width: 100%;
-    background: url("assets/laptop-banner.png") no-repeat center center fixed;
+    background: url("assets/laptop-banner.webp") no-repeat center center fixed;
     background-size: cover;
     color:white;
     display: flex;
